@@ -1,7 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useState } from 'react'
 import { Dropdown } from 'react-bootstrap'
 
 function ByGenre(){
+
+
+  const [genre, setGenre] = useState(null)
+
+  useEffect(() => {
+
+  })
+
   return(
     <div className="choose-genre">
     <Dropdown>
@@ -15,11 +24,8 @@ function ByGenre(){
         <Dropdown.Item href="#/action-3">Comedy</Dropdown.Item>
         <Dropdown.Item href="#/action-4">Drama</Dropdown.Item>
         <Dropdown.Item href="#/action-5">Action</Dropdown.Item>
-        <Dropdown.Item href="#/action-6">Sci-Fi</Dropdown.Item>
-        <Dropdown.Item href="#/action-7">Adventure</Dropdown.Item>
-        <Dropdown.Item href="#/action-8">Animation</Dropdown.Item>
         <Dropdown.Item href="#/action-9">Romance</Dropdown.Item>
-        <Dropdown.Item href="#/action-10">Crime</Dropdown.Item>
+        <Dropdown.Item href="#/action-10">Family</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
   </div>

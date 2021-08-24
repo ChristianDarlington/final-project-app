@@ -13,4 +13,15 @@
 
 .header{
   font-family: 'Anton', sans-serif;
+  color: lightslategrey;
+}
+
+.choose-genre{
+  height: 40px;
+  margin-top: 28px;
+  align-items: center;
+}
+
+body{
+  background-color: black;
 }
