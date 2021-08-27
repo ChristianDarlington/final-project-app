@@ -25,3 +25,8 @@
 body{
   background-color: black;
 }
+
+.dropdown-basic{
+  margin-top: 20px;
+  align-self: center;
+}

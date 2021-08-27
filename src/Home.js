@@ -1,5 +1,5 @@
 import React from 'react'
-import { Dropdown, Button, Navbar, Container, Nav } from 'react-bootstrap'
+import { Navbar, Container, Nav } from 'react-bootstrap'
 
 function Home() {
   return (
@@ -7,16 +7,16 @@ function Home() {
       {/* Header  */}
 
       <Navbar bg="dark" variant="dark">
-    <Container>
-      <h1 className="header">RandomSpot</h1>
-    <Navbar.Brand href="#home"></Navbar.Brand>
-    <Nav className="me-auto">
-      <Nav.Link href="#home"></Nav.Link>
-      <Nav.Link href="#features"></Nav.Link>
-      <Nav.Link href="#pricing"></Nav.Link>
-    </Nav>
-    </Container>
-  </Navbar>
+        <Container>
+          <h1 className="header">RandomSpot</h1>
+          <Navbar.Brand href="#home"></Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home"></Nav.Link>
+            <Nav.Link href="#features"></Nav.Link>
+            <Nav.Link href="#pricing"></Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
 
       {/* Options Selection Wrapper */}
       <div className="d-flex flex-row">
@@ -39,18 +39,9 @@ function Home() {
         </div>
 
         {/* Column Two */}
-        
 
         {/* Column Three */}
-
-        <div>
-          <Button variant="primary" className="btn">
-            Randomize
-          </Button>
-        </div>
       </div>
-
-      
 
       {/* 
         1. Div wrapper for data results (movies) area
