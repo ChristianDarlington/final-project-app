@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react'
 import './App.css'
-import ByDecade from './ByDecade'
-import ByGenre from './ByGenre'
 import Home from './Home'
 import MovieList from './MovieList'
 
@@ -17,9 +15,13 @@ function App() {
   return (
     <div className="container">
       <Home />
-      <MovieList />
-      <ByGenre />
-      <ByDecade />
+
+      <div className="row">
+        <MovieList />
+      </div>
+
+      {/* <ByGenre />
+      <ByDecade /> */}
     </div>
   )
 }

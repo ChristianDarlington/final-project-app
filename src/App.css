@@ -6,27 +6,26 @@
   box-sizing: inherit;
 }
 
-.choose-decade{
-  align-items: center;
-}
-
-
 .header{
   font-family: 'Anton', sans-serif;
   color: lightslategrey;
-}
-
-.choose-genre{
-  height: 40px;
-  margin-top: 28px;
-  align-items: center;
+  opacity: 1;
 }
 
 body{
-  background-color: black;
+  background-color: #141414;
 }
 
-.dropdown-basic{
-  margin-top: 20px;
-  align-self: center;
+.dropdown-toggle{
+  white-space: normal;
+  
 }
+
+.movie{
+  margin: 1rem;
+  flex-wrap: wrap;
+  flex-direction: column;
+  display: flex;
+  
+}
+
