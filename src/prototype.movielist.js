@@ -12,8 +12,8 @@ function MovieList(props) {
                 className="movie"
                 variant="top"
                 src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
-                alt="Image Coming"
-                style={{ width: '80%', height: 200, flexWrap: 'wrap', flexDirection: 'column' }}
+                alt="Images Coming"
+                style={{ width: '50%', height: 200}}
               />
               <Card.Body>
                 <Card.Title></Card.Title>

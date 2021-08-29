@@ -3,6 +3,7 @@ import './App.css'
 import Home from './Home'
 import MovieList from './MovieList'
 
+
 const APIkey = `7432733ca0b97edebd21bdd62d35ddd5`
 
 function App() {
