@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { DropdownButton, Dropdown, Button } from 'react-bootstrap'
 
+
 import './App.css'
 import Home from './Home'
 // import MovieList from './MovieList'
@@ -65,15 +66,7 @@ function App() {
     <div>
       <Home />
 
-      <div>
-        <Button variant="primary" className="btn" onClick={() => getData()}>
-          Randomize
-        </Button>
-      </div>
 
-      <div>
-        <MovieList movies={filteredMovies !== undefined ? filteredMovies : movies} />
-      </div>
 
       <div className="genre">
         <DropdownButton title="Genres">
@@ -116,6 +109,15 @@ function App() {
             2020s
           </Dropdown.Item>
         </DropdownButton>
+
+      <div>
+        <Button variant="primary" className="btn" onClick={() => getData()}>
+          Randomize
+        </Button>
+      </div>
+      </div>
+      <div>
+        <MovieList movies={filteredMovies !== undefined ? filteredMovies : movies} />
       </div>
     </div>
   )

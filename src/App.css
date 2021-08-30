@@ -6,15 +6,31 @@
   box-sizing: inherit;
 }
 
+
+.btn-primary{
+  float: left;
+  justify-content: left;
+  word-spacing: initial;
+  margin-left: 20px;
+}
+
+
+
+
 .header{
   font-family: 'Anton', sans-serif;
-  color: lightslategrey;
+  color: red;
   opacity: 1;
+  border-spacing: 1000px;
+  padding: auto;
 }
 
 body{
-  background-color: #141414;
+  background-color: #141414; 
+  float: initial;
 }
+
+
 
 .dropdown-toggle{
   white-space: normal;
@@ -26,6 +42,10 @@ body{
   flex-wrap: wrap;
   flex-direction: column;
   display: flex;
-  
+  align-items: center;
+  justify-content: space-between;
+  display: grid;
+  grid-auto-flow: column; 
 }
+
 
