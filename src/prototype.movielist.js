@@ -8,7 +8,7 @@ function MovieList(props) {
         {props.movies && props.movies.slice(0, 10).map(movie => {
           return (
             
-            <Col className="picture" xs={10} md={4}>
+            <Col className="picture" key={movie.id} xs={10} md={4}>
             <Card.Img 
                 className="movie"
                 variant="top"

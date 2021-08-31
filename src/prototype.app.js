@@ -14,10 +14,10 @@ function App() {
   const [filteredMovies, setFilteredMovies] = useState()
 
   async function getData() {
-    const response = await fetch('http://localhost:5000/movies')
+    const response = await fetch('https://final-project-api-cd1.web.app/movies')
     const data = await response.json()
 
-    console.log(data)
+  
     setMovies(data)
   }
 
@@ -69,7 +69,7 @@ function App() {
 
 
       <div className="genre">
-        <DropdownButton title="Genres">
+        <DropdownButton  title="Genres">
           <Dropdown.Item id="27" onClick={() => setGenre(27)}>
             Horror
           </Dropdown.Item>
@@ -91,7 +91,7 @@ function App() {
         </DropdownButton>
       </div>
 
-      <div class="container">
+      <div className="container">
         <DropdownButton title="Decades">
           <Dropdown.Item id="1980" onClick={() => setDecade(1980)}>
             1980s
